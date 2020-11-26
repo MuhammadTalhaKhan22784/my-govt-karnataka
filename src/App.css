@@ -329,11 +329,11 @@ p.blue {
     font-weight: bold;
     margin: 1rem 0rem;
 }
-#srch {
+#srchDist, #srchTaluk, #srchBranch, #srchUni{
     border: 1px solid #f0f0f0;
     padding: .8rem;
     background-color: #f8f8f8;
-    border-radius: 1rem;
+    border-radius: 1rem; 
     margin-bottom: 2rem;
     width: 100%;
 }
@@ -486,6 +486,7 @@ p.blue {
     .uni-cards {
         grid-template-columns: 1fr;
     }
+    
 }
 
 
@@ -494,11 +495,41 @@ p.blue {
         font-size: 5px;
     }
 }
+
+@media (max-width: 425px) {
+    #nav .menu {
+        top: 7rem;
+    }
+    ::placeholder {
+        font-size: 11px;
+    }
+}
+
 @media (max-width: 400px) {
     html {
         font-size: 4px;
     }
+    ::placeholder {
+        font-size: 11px;
+    }
 }
 
 
+@media (max-width: 375px) {
+    #nav .menu {
+        top: 8rem;
+    }
+    ::placeholder {
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 320px) {
+    #nav .menu {
+        top: 8rem;
+    }
+    ::placeholder {
+        font-size: 7px;
+    }
+}
 

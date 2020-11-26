@@ -5,7 +5,7 @@ function SelectCards(props) {
         <>
             <div className="mc1-card">
                 <p className="blue">{props.selectDistrict}</p>
-                <input type="text" name="srch" id="srch" placeholder={props.placeSearchDistrict} />
+                <input type="text" name={props.searchId} id={props.searchId} placeholder={props.placeSearchDistrict} />
                 <div className="mc1-content">
                     <input type="radio" name="radio" id="radio" />
                     <p>{props.searchOption1}</p>

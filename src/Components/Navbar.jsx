@@ -2,6 +2,8 @@ import React from 'react'
 import LmainImage from '../imgs/lmain.png';
 
 function Navbar() {
+
+  
   return (
     //NAVBAR START
     <>
@@ -25,7 +27,7 @@ function Navbar() {
             </div>
           </div>
         </div>
-        <i class="fas fa-bars fa-5x menu"></i>
+        <i class="fas fa-bars fa-5x menu" onClick=""></i>
       </div>
     </>
 
